@@ -1,0 +1,26 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "style",
+        "src": "./build/app.css"
+      },
+      {
+        "type": "script",
+        "src": "./build/app.js"
+      }
+    ]
+  },
+  "preview": {
+    "handlers": [
+      {
+        "options": ["*"],
+        "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+    }
+  }
+}
