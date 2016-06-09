@@ -6,6 +6,8 @@ This is our example app with Babel support. In order to get babel installed for 
 project, run the setup command in CLI in the root directory of this project, and
 get it running with the usage commands below.
 
+<a href="https://github.com/EagerApps/ExampleBabelApp/archive/v1.0.0.zip" >Download the zip</a>
+
 ## Setup
 
 `npm install`
@@ -64,6 +66,7 @@ http://install.json.is/
 
 - Read the <a href="https://eager.io/developer/docs/getting-started">docs</a>
 - Make sure to prefix any classes and div's with `eager`, like shown in this app
+
 
 
 <a href="https://eager.io/app/example-babel-app/install?source=button">
