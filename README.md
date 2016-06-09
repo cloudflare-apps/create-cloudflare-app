@@ -2,7 +2,8 @@
 
 *Get going with Eager!*
 
-This is our example app with Babel support. In order to get babel installed for this
+This is our example app with Babel support. Download this app and replace our code 
+any time you want to build an Eager app. In order to get babel installed for this 
 project, run the setup command in CLI in the root directory of this project, and
 get it running with the usage commands below.
 
