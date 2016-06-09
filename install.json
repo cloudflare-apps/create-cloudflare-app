@@ -21,6 +21,23 @@
   },
   "options": {
     "properties": {
+      "location": {
+        "title": "location",
+        "order": 0,
+        "type": "object",
+        "format": "element",
+        "default": {
+          "selector": "body",
+          "method": "prepend"
+        }
+        },
+      "welcomeText": {
+        "title": "Welcome to Eager!",
+        "type": "string",
+        "format": "textarea",
+        "order": 1,
+        "default": "Welcome to Eager! This is our example app that utilizes babel. Download this app every time you want to make a new project and don't forget to read the readme and docs!"
+      }
     }
   }
 }
