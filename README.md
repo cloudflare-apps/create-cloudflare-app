@@ -34,8 +34,6 @@ in the JS whenever possible.
 
 This is where all the <a href="https://eager.io/developer/docs/install-json">options are added for the app</a>. <a href="http://install.json.is/">Syntax can be tricky</a>, so be sure to double check it
 
-http://install.json.is/
-
 #### Additional notes
 
 - <a href="https://eager.io/developer/docs/getting-started">Reading the docs</a> tends to help more than you'd think.
