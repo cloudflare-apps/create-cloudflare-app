@@ -20,36 +20,13 @@ get it running with the usage commands below.
 
 #### app.js
 
-App.js is where all of the Javascript code goes. There a few main parts of app.js
-to know
-
-`updateElement`
-
-updateElement is a function that runs every time the page is updated with new options
-from the install.json. Most of your code will end up inside this function. Any code
-not inside this function will not update when options are updated.
-
-`if (!window.addEventListener) return`
-
-This is just a simple check to make sure whoever uses our app is  using IE9 or greater
-for their browser. A lot of older browsers don't support all of the new JS goodies,
-so we can't support older browsers.
-
-`if (document.readyState === "loading")`
-
-We use this to make sure that Eager apps load at the approporiate times. Some apps
-need to call on elements that exist inside of the page, so if the app started running
-before the page was loaded, the app wouldn't work
-
-`window.INSTALL_SCOPE`
-
-INSTALL_SCOPE is an object that is used to communicate with other Eager scripts.
-This is usually just used to update your options.
+App.js is where all of the Javascript code goes. There's comments inside the files
+explaining all the important parts.
 
 #### app.css
 
 This is where all the CSS for an app goes. Try to refrain from styling an app directly
-in the JS whenever possible
+in the JS whenever possible.
 
 #### install.json
 
