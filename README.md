@@ -2,9 +2,12 @@
 
 *Get going with Eager!*
 
-This is our example app with Babel support. In order to get babel installed for this
+This is our example app with Babel support. Download this app and replace our code
+any time you want to build an Eager app. In order to get babel installed for this
 project, run the setup command in CLI in the root directory of this project, and
 get it running with the usage commands below.
+
+<a href="https://github.com/EagerApps/ExampleBabelApp/archive/v1.0.0.zip" >Download the zip</a>
 
 ## Setup
 
@@ -20,8 +23,7 @@ get it running with the usage commands below.
 
 #### app.js
 
-App.js is where all of the Javascript code goes. There's comments inside the files
-explaining all the important parts.
+This is where the magic happens. your app starts here
 
 #### app.css
 
@@ -30,17 +32,12 @@ in the JS whenever possible.
 
 #### install.json
 
-This is where all the options are added for the app. For a better explanation on how
-to add options and how json's work, check these sources below.
-
-https://eager.io/developer/docs/install-json
-
-http://install.json.is/
+This is where all the <a href="https://eager.io/developer/docs/install-json">options are added for the app</a>. <a href="http://install.json.is/">Syntax can be tricky</a>, so be sure to double check it
 
 #### Additional notes
 
-- Read the <a href="https://eager.io/developer/docs/getting-started">docs</a>
-- Make sure to prefix any classes and div's with `eager`, like shown in this app
+- <a href="https://eager.io/developer/docs/getting-started">Reading the docs</a> tends to help more than you'd think.
+- Make sure to prefix any classes and div's with `eager`, like shown in this app.
 
 
 <a href="https://eager.io/app/example-babel-app/install?source=button">
@@ -50,3 +47,4 @@ http://install.json.is/
     border="0"
     width="140">
 </a>
+
