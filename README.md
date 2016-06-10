@@ -23,7 +23,7 @@ get it running with the usage commands below.
 
 #### app.js
 
-This is where the magic happens. your app starts here
+This is where the magic happens. Your app starts here.
 
 #### app.css
 
@@ -32,11 +32,14 @@ in the JS whenever possible.
 
 #### install.json
 
-This is where all the <a href="https://eager.io/developer/docs/install-json">options are added for the app</a>. <a href="http://install.json.is/">Syntax can be tricky</a>, so be sure to double check it
+This is where all the <a href="https://eager.io/developer/docs/install-json">options
+are added for the app</a>. <a href="http://install.json.is/">Syntax can be tricky</a>,
+so be sure to double check it.
 
 #### Additional notes
 
-- <a href="https://eager.io/developer/docs/getting-started">Reading the docs</a> tends to help more than you'd think.
+- <a href="https://eager.io/developer/docs/getting-started">Reading the docs</a>
+tends to help more than you'd think.
 - Make sure to prefix any classes and div's with `eager`, like shown in this app.
 
 
