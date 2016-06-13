@@ -7,15 +7,16 @@ Download this app and replace our code any time you want to build an Eager app.
 
 ## Setup
 
-Clone the repo or <a href="https://github.com/EagerApps/ExampleBabelApp/archive/v1.0.0.zip" >Download the zip</a>.
+Clone the repo or <a href="https://github.com/EagerApps/ExampleBabelApp/archive/v1.0.0.zip" >download the zip</a>.
 
 Install the repo dependencies with `npm install`
 
 ## Usage
 
-* `npm run watch:js` Watch for JavaScript changes an compile them.
-* `npm run watch:css` Watch for CSS changes an compile them.
+* `npm run watch:js` Watch for JavaScript changes and compile them for older browsers.
+* `npm run watch:css` Watch for CSS changes and compile them for older browsers.
 * `npm run lint` Check your JavaScript for errors and stylistic recommendations.
+* `npm run build` Builds your JavaScript and CSS once for release.
 
 ## Details
 
