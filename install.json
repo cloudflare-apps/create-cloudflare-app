@@ -22,7 +22,7 @@
   "options": {
     "properties": {
       "location": {
-        "title": "location",
+        "title": "Message location",
         "order": 0,
         "type": "object",
         "format": "element",
@@ -33,7 +33,7 @@
         },
       "message": {
         "title": "Message",
-        "description": "A short message example.",
+        "description": "A short example message.",
         "type": "string",
         "format": "textarea",
         "order": 1,
