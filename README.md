@@ -9,14 +9,14 @@ Download this app and replace our code any time you want to build an Eager app.
 
 Clone the repo or <a href="https://github.com/EagerApps/ExampleBabelApp/archive/v1.0.0.zip" >download the zip</a>.
 
-Install the repo dependencies with `npm install`
+Install the dependencies with `npm install`
 
 ## Usage
 
-* `npm run watch:js` Watch for JavaScript changes and compile them for older browsers.
-* `npm run watch:css` Watch for CSS changes and compile them for older browsers.
+* `npm run watch:js` Watch for JavaScript changes and compile them.
+* `npm run watch:css` Watch for CSS changes and compile them.
 * `npm run lint` Check your JavaScript for errors and stylistic recommendations.
-* `npm run build` Builds your JavaScript and CSS once for release.
+* `npm run build` Compiles your JavaScript and CSS once for release.
 
 ## Details
 
@@ -26,12 +26,17 @@ This is where the magic happens. Your app starts here.
 
 #### `source/app.css`
 
-This is where all the styles for an app goes.
+Styles for your app.
 
 #### `install.json`
 
 This is where all the <a href="https://eager.io/developer/docs/install-json">installer options</a> are added for the app.
+
 <a href="http://install.json.is/">Syntax can be tricky</a>, so be sure to double check it.
+
+#### `media/icon.sketch`
+
+An icon template for your app.
 
 ### Troubleshooting
 
