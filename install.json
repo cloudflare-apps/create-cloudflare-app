@@ -31,12 +31,13 @@
           "method": "prepend"
         }
         },
-      "welcomeText": {
-        "title": "Welcome to Eager!",
+      "message": {
+        "title": "Message",
+        "description": "A short message example.",
         "type": "string",
         "format": "textarea",
         "order": 1,
-        "default": "Welcome to Eager! This is our example app that utilizes babel. Download this app every time you want to make a new project and don't forget to read the readme and docs!"
+        "default": "Welcome to Eager! This is our example app that utilizes Babel.\n\nDownload this app every time you want to make a new project with the latest JavaScript and CSS features."
       }
     }
   }

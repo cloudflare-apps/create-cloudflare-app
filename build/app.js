@@ -12,20 +12,18 @@
   function updateElement() {
     element = Eager.createElement(options.location, element);
 
-    element.textContent = options.welcomeText;
-    element.className = "eager-welcome";
+    element.className = "eager-message";
+    element.textContent = options.message;
   }
 
   // This code ensures that the app doesn't run before the page is loaded.
-
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", updateElement);
   } else {
     updateElement();
   }
 
-  // INSTALL_SCOPE is an object that is used to communicate with other Eager scripts.
-  // This is usually just used to update your options.
+  // INSTALL_SCOPE is an object that is used to handle option changes without refreshing the page.
   window.INSTALL_SCOPE = {
     setOptions: function setOptions(nextOptions) {
       options = nextOptions;

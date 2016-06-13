@@ -2,12 +2,10 @@
 
 *Get going with Eager!*
 
-This is our example app with Babel support. Download this app and replace our code
-any time you want to build an Eager app. In order to get babel installed for this
-project, run the setup command in CLI in the root directory of this project, and
-get it running with the usage commands below.
+This is our example app with the latest JavaScript and CSS features.
+Download this app and replace our code any time you want to build an Eager app.
 
-<a href="https://github.com/EagerApps/ExampleBabelApp/archive/v1.0.0.zip" >Download the zip</a>
+<a href="https://github.com/EagerApps/ExampleBabelApp/archive/v1.0.0.zip" >Download the zip.</a>
 
 ## Setup
 
@@ -19,29 +17,25 @@ get it running with the usage commands below.
 
 * `npm run watch:css`: Watch for CSS changes an compile them.
 
-## Important notes
+## Details
 
-#### app.js
+#### `app.js`
 
 This is where the magic happens. Your app starts here.
 
-#### app.css
+#### `app.css`
 
-This is where all the CSS for an app goes. Try to refrain from styling an app directly
-in the JS whenever possible.
+This is where all the styles for an app goes.
 
-#### install.json
+#### `install.json`
 
-This is where all the <a href="https://eager.io/developer/docs/install-json">options
-are added for the app</a>. <a href="http://install.json.is/">Syntax can be tricky</a>,
-so be sure to double check it.
+This is where all the <a href="https://eager.io/developer/docs/install-json">installer options</a> are added for the app.
+<a href="http://install.json.is/">Syntax can be tricky</a>, so be sure to double check it.
 
-#### Additional notes
+### Troubleshooting
 
-- <a href="https://eager.io/developer/docs/getting-started">Reading the docs</a>
-tends to help more than you'd think.
-- Make sure to prefix any classes and div's with `eager`, like shown in this app.
-
+- <a href="https://eager.io/developer/docs/getting-started">The Eager developer documentation</a> for examples and API usage.
+- <a href="http://community.eager.io/">The Eager community forums</a> for a personal touch.
 
 <a href="https://eager.io/app/example-babel-app/install?source=button">
   <img

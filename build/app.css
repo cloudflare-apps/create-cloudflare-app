@@ -1,3 +1,9 @@
-.eager-welcome {
+/* Prefix classes and custom elements with `eager` to avoid inheriting styles from the page. */
+
+.eager-message {
+  display: block;
   font-weight: bold;
+  margin: 0.5em 0;
+  outline: 1px dotted;
+  padding: 0.5em;
 }
