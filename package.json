@@ -4,9 +4,12 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "watch:js": "babel --watch --out-dir build app.js",
-    "watch:css": "postcss --watch --use autoprefixer -o build/app.css app.css",
-    "build": "NODE_ENV=production babel --out-dir build app.js && postcss --use autoprefixer -o build/app.css app.css"
+    "build": "NODE_ENV=production npm run lint && npm run build:js && npm run build:css",
+    "build:css": "postcss --use autoprefixer -o build/app.css source/app.css",
+    "build:js": "babel --out-dir build source",
+    "lint": "eslint ./source",
+    "watch:js": "babel --watch --out-dir build source",
+    "watch:css": "postcss --watch --use autoprefixer -o build/app.css source/app.css"
   },
   "repository": {
     "type": "git",

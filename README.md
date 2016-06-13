@@ -13,17 +13,17 @@ Download this app and replace our code any time you want to build an Eager app.
 
 ## Usage
 
-* `npm run watch:js`: Watch for Javascript changes an compile them.
-
+* `npm run watch:js`: Watch for JavaScript changes an compile them.
 * `npm run watch:css`: Watch for CSS changes an compile them.
+* `npm run lint`: Check your JavaScript for errors and stylistic recommendations.
 
 ## Details
 
-#### `app.js`
+#### `source/app.js`
 
 This is where the magic happens. Your app starts here.
 
-#### `app.css`
+#### `source/app.css`
 
 This is where all the styles for an app goes.
 
