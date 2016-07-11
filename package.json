@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EagerApps/AppBoilerplate.git"
+    "url": "git+https://github.com/EagerApps/ExampleBabelApp.git"
   },
   "author": "Eager",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EagerApps/AppBoilerplate/issues"
+    "url": "https://github.com/EagerApps/ExampleBabelApp/issues"
   },
-  "homepage": "https://github.com/EagerApps/AppBoilerplate#readme",
+  "homepage": "https://github.com/EagerApps/ExampleBabelApp#readme",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "6.3.6",
