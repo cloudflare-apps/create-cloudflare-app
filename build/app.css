@@ -1,6 +1,6 @@
 /* Prefix classes and custom elements with `eager` to avoid inheriting styles from the page. */
 
-.eager-message {
+eager-app[app-id="example-message"] {
   display: block;
   font-weight: bold;
   margin: 0.5em 0;

@@ -13,7 +13,7 @@
     function updateElement() {
       element = Eager.createElement(options.location, element);
 
-      element.className = "eager-message";
+      element.setAttribute("app-id", "example-message");
       element.textContent = options.message;
     }
 
