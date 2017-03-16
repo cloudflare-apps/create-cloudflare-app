@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "webpack --watch --colors"
+    "start": "webpack --watch --colors",
+    "build": "NODE_ENV=production webpack -p --colors"
   },
   "repository": {
     "type": "git",
