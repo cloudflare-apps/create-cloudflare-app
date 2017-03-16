@@ -1,8 +1,8 @@
 {
-  "name": "eager-example-babel-app",
+  "name": "cloudflare-example-babel-app",
   "version": "0.0.0",
   "description": "",
-  "main": "app.js",
+  "private": true,
   "scripts": {
     "start": "webpack --watch --colors",
     "build": "NODE_ENV=production webpack -p --colors"

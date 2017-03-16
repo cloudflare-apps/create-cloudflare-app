@@ -1,10 +1,8 @@
 # Example Babel App
 
-*Get going with Eager!*
-
 This is our example app with the latest JavaScript and CSS features.
 
-Download this app and replace our code any time you want to build an Eager app.
+Download this app and replace our code any time you want to build an Cloudflare app.
 
 _Looking for a simpler setup? Check out our [vanilla example app](https://github.com/CloudflareApps/ExampleApp)!_
 
@@ -41,4 +39,4 @@ An icon template for your app.
 
 ### Troubleshooting
 
-- <a href="https://www.cloudflare.com/apps/developer/docs/getting-started">The Eager developer documentation</a> for examples and API usage.
+- <a href="https://www.cloudflare.com/apps/developer/docs/getting-started">The C developer documentation</a> for examples and API usage.
