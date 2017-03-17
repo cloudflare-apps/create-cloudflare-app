@@ -1,10 +1,11 @@
 const path = require('path')
 
-const environment = process.env.NODE_ENV || 'development'
+// const environment = process.env.NODE_ENV || 'development'
 const $ = {}
 const modulePattern = /(node_modules|bower_components)/
 
-$.devtool = environment === 'development' ? 'eval-source-map' : false
+// TODO: This causes some issues when combined with app testing.
+// $.devtool = environment === 'development' ? 'eval-source-map' : false
 
 $.entry = {
   app: path.resolve(__dirname, './source', 'app.js'),
