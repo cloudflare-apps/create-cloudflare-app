@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/CloudflareApps/ExampleBabelApp.git"
   },
-  "author": "Cloudflare Inc",
+  "author": "Cloudflare Inc.",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CloudflareApps/ExampleBabelApp/issues"
