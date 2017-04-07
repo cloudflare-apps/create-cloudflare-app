@@ -1,6 +1,7 @@
 const path = require('path')
+const webpack = require('webpack')
 
-// const environment = process.env.NODE_ENV || 'development'
+const environment = process.env.NODE_ENV || 'development'
 const $ = {}
 const modulePattern = /(node_modules|bower_components)/
 
@@ -16,6 +17,12 @@ $.output = {
   filename: '[name].js',
   sourceMapFilename: '[name].map',
   path: path.resolve(__dirname, 'build')
+}
+
+$.plugins = []
+
+if (environment === 'production') {
+  $.plugins.push(new webpack.LoaderOptionsPlugin({minimize: false, debug: false}))
 }
 
 $.module = {

@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "start": "webpack --watch --colors",
-    "build": "NODE_ENV=production webpack -p --colors",
+    "build": "NODE_ENV=production webpack --colors",
     "lint": "standard ./source/**/*.js || true"
   },
   "repository": {
