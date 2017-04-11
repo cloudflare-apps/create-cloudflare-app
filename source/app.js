@@ -1,4 +1,6 @@
 (function () {
+  'use strict'
+
   if (!window.addEventListener) return // Check for IE9+
 
   let options = INSTALL_OPTIONS
