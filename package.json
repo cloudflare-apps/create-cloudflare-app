@@ -1,23 +1,23 @@
 {
-  "name": "cloudflare-example-babel-app",
+  "name": "cloudflare-example-webpack-app",
   "version": "0.0.0",
   "description": "",
   "private": true,
   "scripts": {
     "start": "webpack --watch --colors",
     "build": "NODE_ENV=production webpack --colors",
-    "lint": "standard ./source/**/*.js || true"
+    "lint": "standard --fix ./source/**/*.js || true"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CloudflareApps/ExampleBabelApp.git"
+    "url": "git+https://github.com/CloudflareApps/ExampleWebpackApp.git"
   },
   "author": "Cloudflare Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CloudflareApps/ExampleBabelApp/issues"
+    "url": "https://github.com/CloudflareApps/ExampleWebpackApp/issues"
   },
-  "homepage": "https://github.com/CloudflareApps/ExampleBabelApp#readme",
+  "homepage": "https://github.com/CloudflareApps/ExampleWebpackApp#readme",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.7.7",

@@ -37,7 +37,7 @@
         "type": "string",
         "format": "richtext",
         "order": 1,
-        "default": "<p>Welcome to Cloudflare Apps! This is our example app that utilizes Babel.</p><p>Download this app every time you want to make a new project with the latest JavaScript and CSS features.</p>"
+        "default": "<p>Welcome to Cloudflare Apps! This is our example app that utilizes Webpack.</p><p>Download this app every time you want to make a new project with the latest JavaScript and CSS features.</p>"
       }
     }
   }

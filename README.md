@@ -1,21 +1,22 @@
-# Example Babel App
+# Example Webpack App
 
 This is our example app with the latest JavaScript and CSS features.
 
 Download this app and replace our code any time you want to build an Cloudflare app.
 
-_Looking for a simpler setup? Check out our [vanilla example app](https://github.com/CloudflareApps/ExampleApp)!_
+**_Looking for a simpler setup? Check out our [vanilla example app](https://github.com/CloudflareApps/ExampleApp)!_**
 
 ## Setup
 
-Fork and clone the repo or <a href="https://github.com/CloudflareApps/ExampleBabelApp/releases/latest" >download the latest release</a>.
+Fork and clone the repo or <a href="https://github.com/CloudflareApps/ExampleWebpackApp/releases/latest" >download the latest release</a>.
 
 Install the dependencies with `npm install`
 
 ## Usage
 
-* `npm start` Watch for file changes and compile them.
-* `npm run build` Compiles your JavaScript and CSS once for release.
+- `npm start` Watches for file changes and compile them.
+- `npm run build` Compiles your JavaScript and CSS once for release.
+- `npm run lint` Checks JavaScript formatting and attempts to fix any errors.
 
 ## Details
 
@@ -41,10 +42,10 @@ An icon template for your app.
 
 - <a href="https://www.cloudflare.com/apps/developer/docs/getting-started">The Cloudflare developer documentation</a> for examples and API usage.
 
-<a href="https://www.cloudflare.com/apps/example-babel-app/install?source=button">
+<a href="https://www.cloudflare.com/apps/example-webpack-app/install?source=button">
   <img
     src="https://install.eager.io/install-button.png"
-    alt="Install Example Babel App with Cloudflare"
+    alt="Install Example Webpack App with Cloudflare"
     border="0"
     width="150">
 </a>
