@@ -1,5 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
+const standardOptions = require('./package.json').standard
 
 const environment = process.env.NODE_ENV || 'development'
 const $ = {}
@@ -42,6 +43,12 @@ $.module = {
         snazzy: true,
         parser: 'babel-eslint'
       }
+    },
+    { test: /\.js$/,
+      enforce: 'post',
+      exclude: modulePattern,
+      loader: 'standard-format-loader' ,
+      options: standardOptions
     }
   ]
 }

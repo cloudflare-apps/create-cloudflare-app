@@ -31,10 +31,12 @@
     "postcss-loader": "^1.3.3",
     "standard": "^9.0.1",
     "standard-loader": "^6.0.1",
+    "standard-format-loader": "^1.1.0",
     "style-loader": "^0.14.1",
     "webpack": "^2.2.1"
   },
   "standard": {
+    "parser": "babel-eslint",
     "globals": [
       "INSTALL",
       "INSTALL_OPTIONS",
