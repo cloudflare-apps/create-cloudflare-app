@@ -34,9 +34,9 @@ This is where all the <a href="https://www.cloudflare.com/apps/developer/docs/in
 
 <a href="http://install.json.is/">Syntax can be tricky</a>, so be sure to double check it.
 
-#### `media/icon.sketch`
+#### `media/logo.sketch`
 
-An icon template for your app.
+An icon and tile template for your app.
 
 ### Troubleshooting
 
