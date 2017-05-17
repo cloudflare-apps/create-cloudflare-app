@@ -11,7 +11,8 @@
   function updateElement () {
     element = INSTALL.createElement(options.location, element)
 
-    element.setAttribute('app-id', 'example')
+    // Set the app attribute to your app's dash-delimited alias.
+    element.setAttribute('app', 'example')
     element.innerHTML = options.message
   }
 
