@@ -1,11 +1,29 @@
-/* Prefix classes and custom elements with `cloudflare` to avoid inheriting styles from the page. */
-
-/* Set the id to your app's alias. */
-cloudflare-app[app-id="example"] {
-  display: flex;
-  flex-flow: column;
+/* Set the app attribute to your app's dash-delimited alias. */
+cloudflare-app[app="example"] {
+  display: block;
   font-weight: bold;
   margin: .5em .2em;
   outline: 1px dotted;
   padding: .5em;
+}
+
+/* Use native elements when you'd like to inherit some styles from the page. */
+cloudflare-app[app="example"] p {
+  text-indent: 0;
+}
+
+/* Use em units to scale elements for different inherited styles. */
+cloudflare-app[app="example"] h1 {
+  font-size: 1.8em;
+}
+
+/* Use custom elements to avoid style inheritance. */
+cloudflare-app[app="example"] example-button {
+  border: 1px solid;
+}
+
+/* Prefix classes with your app's alias to avoid style collisions. */
+cloudflare-app[app="example"] .example-highlighted {
+  background-color: yellow;
+  outline: .2em solid yellow;
 }
