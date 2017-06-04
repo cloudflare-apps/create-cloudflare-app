@@ -34,9 +34,11 @@ This is where all the <a href="https://www.cloudflare.com/apps/developer/docs/in
 
 <a href="http://install.json.is/">Syntax can be tricky</a>, so be sure to double check it.
 
-#### `media/logo.sketch`
+#### `media/**`
 
-An icon and tile template for your app.
+An directory for icons, tile images, and screenshots.
+
+[Download <code class="inline">media-templates.sketch</code>](https://github.com/CloudflareApps/MediaTemplates/raw/master/media-templates.sketch)
 
 ### Troubleshooting
 
