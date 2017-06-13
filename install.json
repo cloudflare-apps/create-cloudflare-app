@@ -30,7 +30,7 @@
           "selector": "body",
           "method": "prepend"
         }
-        },
+      },
       "message": {
         "title": "Message",
         "description": "A short example message.",
