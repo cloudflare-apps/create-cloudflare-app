@@ -44,10 +44,10 @@ An directory for icons, tile images, and screenshots.
 
 - <a href="https://www.cloudflare.com/apps/developer/docs/getting-started">The Cloudflare developer documentation</a> for examples and API usage.
 
-<a href="https://www.cloudflare.com/apps/example-webpack-app/install?source=button">
+<a href="https://www.cloudflare.com/apps/[[YOUR APP ALIAS]]/install?source=button">
   <img
-    src="https://install.eager.io/install-button.png"
-    alt="Install Example Webpack App with Cloudflare"
+    src="https://install.cloudflareapps.com/install-button.png"
+    alt="Install [[YOUR APP NAME]] with Cloudflare"
     border="0"
     width="150">
 </a>
