@@ -14,7 +14,7 @@
   "preview": {
     "handlers": [
       {
-        "options": ["*"],
+        "options": ["_default"],
         "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
       }
     ]
