@@ -41,6 +41,7 @@
       "INSTALL",
       "INSTALL_OPTIONS",
       "INSTALL_SCOPE",
+      "INSTALL_PRODUCT",
       "INSTALL_ID"
     ]
   }
