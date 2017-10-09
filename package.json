@@ -1,5 +1,5 @@
 {
-  "name": "cloudflare-app-example-webpack",
+  "name": "@cloudflare-apps/example-webpack",
   "version": "0.0.0",
   "description": "",
   "private": true,
