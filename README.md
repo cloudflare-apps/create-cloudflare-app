@@ -4,7 +4,7 @@ This is our example app with the latest JavaScript and CSS features.
 
 Download this app and replace our code any time you want to build an Cloudflare app.
 
-**_Looking for a simpler setup? Check out our [vanilla example app](https://github.com/CloudflareApps/ExampleApp)!_**
+**_Looking for a simpler setup? Check out our [vanilla example app](https://github.com/cloudflare-apps/example-app)!_**
 
 ## Setup
 
