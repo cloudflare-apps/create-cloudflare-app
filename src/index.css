@@ -2,9 +2,9 @@
 cloudflare-app[app="example"] {
   display: block;
   font-weight: bold;
-  margin: .5em .2em;
+  margin: 0.5em 0.2em;
   outline: 1px dotted;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 /* Use native elements when you'd like to inherit some styles from the page. */
@@ -25,5 +25,5 @@ cloudflare-app[app="example"] example-button {
 /* Prefix classes with your app's alias to avoid style collisions. */
 cloudflare-app[app="example"] .example-highlighted {
   background-color: yellow;
-  outline: .2em solid yellow;
+  outline: 0.2em solid yellow;
 }

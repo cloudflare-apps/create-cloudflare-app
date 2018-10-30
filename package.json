@@ -1,48 +1,43 @@
 {
-  "name": "@cloudflare-apps/example-webpack",
-  "version": "0.0.0",
-  "description": "",
-  "private": true,
+  "name": "@cloudflare-apps/create-cloudflare-app",
+  "version": "0.0.1",
+  "description": "Cloudflare Apps boilerplate featuring Workers and DNS powered by Webpack and Babel",
   "scripts": {
-    "start": "webpack --watch --colors",
-    "build": "NODE_ENV=production webpack --colors",
-    "lint": "standard --fix ./source/**/*.js || true"
+    "start": "npm-run-all dev:setup dev:webpack",
+    "dev:webpack": "webpack --watch --colors",
+    "dev:setup": "npm-run-all lint",
+    "build": "npm-run-all lint build:webpack",
+    "build:webpack": "NODE_ENV=production webpack --colors",
+    "lint": "node_modules/.bin/eslint --fix --ext .js src workers"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cloudflare-apps/example-webpack-app.git"
+    "url": "git+https://github.com/cloudflare-apps/create-cloudflare-app.git"
   },
   "author": "Cloudflare Inc.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cloudflare-apps/example-webpack-app/issues"
+    "url": "https://github.com/cloudflare-apps/create-cloudflare-app/issues"
   },
-  "homepage": "https://github.com/cloudflare-apps/example-webpack-app#readme",
+  "homepage": "https://github.com/cloudflare-apps/create-cloudflare-app#readme",
   "dependencies": {},
   "devDependencies": {
-    "autoprefixer": "^6.7.7",
     "babel-core": "^6.24.0",
-    "babel-eslint": "^7.1.1",
+    "babel-eslint": "^10.0.1",
     "babel-loader": "^6.4.1",
     "babel-preset-env": "^1.2.2",
     "css-loader": "^0.27.3",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "2.6.1",
+    "eslint-watch": "^4.0.2",
     "extract-loader": "^0.1.0",
     "file-loader": "^0.10.1",
-    "postcss-loader": "^1.3.3",
-    "standard": "^9.0.1",
-    "standard-loader": "^6.0.1",
-    "standard-format-loader": "^1.1.2",
-    "style-loader": "^0.14.1",
-    "webpack": "^2.2.1"
-  },
-  "standard": {
-    "parser": "babel-eslint",
-    "globals": [
-      "INSTALL",
-      "INSTALL_OPTIONS",
-      "INSTALL_SCOPE",
-      "INSTALL_PRODUCT",
-      "INSTALL_ID"
-    ]
+    "prettier": "^1.14.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^2.2.1",
+    "yarn-run-all": "^3.1.1"
   }
 }

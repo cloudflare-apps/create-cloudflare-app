@@ -4,7 +4,6 @@
 # Ignore all logfiles and tempfiles.
 .DS_Store
 *.log
-/tmp
-node_modules/**/*
-bower_components/**/*
-build/**/*
+tmp
+node_modules
+build

@@ -4,14 +4,27 @@
     "body": [
       {
         "type": "style",
-        "src": "./build/app.css"
+        "src": "./build/index.css"
       },
       {
         "type": "script",
-        "src": "./build/app.js"
+        "src": "./build/index.js"
       }
     ]
   },
+  "workers": [
+    {
+      "src": "./build/worker.js"
+    }
+  ],
+  "dns": [
+    {
+      "type": "TXT",
+      "content": "example",
+      "name": "example",
+      "ttl": 120
+    }
+  ],
   "preview": {
     "handlers": [
       {
@@ -39,7 +52,7 @@
         "type": "string",
         "format": "richtext",
         "order": 1,
-        "default": "<p>Welcome to Cloudflare Apps! This is our example app that utilizes Webpack.</p><p>Download this app every time you want to make a new project with the latest JavaScript and CSS features.</p>"
+        "default": "<p>Welcome to Cloudflare Apps! This is our example app.</p><p>Download this app every time you want to make a new project. The first Cloudflare Workers script in install.json will run on every request to the installer's website.  Currently, one worker is allowed per app.</p>"
       }
     }
   }
