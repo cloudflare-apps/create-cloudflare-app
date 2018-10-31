@@ -61,7 +61,7 @@ Put your icons, tile images, and screenshots to be used in your Cloudflare Apps 
 
 ### Troubleshooting
 
-The Cloudflare [developer documentation](https://www.cloudflare.com/apps/developer/docs/getting-started) for examples and API usage.
+Check out the Cloudflare [developer documentation](https://www.cloudflare.com/apps/developer/docs/getting-started) for examples and API usage.
 
 <!--
 <a href="https://www.cloudflare.com/apps/[[YOUR APP ALIAS]]/install?source=button">
