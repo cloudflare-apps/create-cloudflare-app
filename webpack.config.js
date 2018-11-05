@@ -1,35 +1,49 @@
 const path = require("path")
 const webpack = require("webpack")
 
-const environment = process.env.NODE_ENV || "development"
+const isDev = process.env.NODE_ENV !== "production"
 
 module.exports = {
+  mode: "development",
+  devtool: "hidden-source-map",
   entry: {
-    index: path.resolve(__dirname, "./src", "index.js"),
-    style: path.resolve(__dirname, "./src", "index.css"),
-    worker: path.resolve(__dirname, "./workers", "worker.js"),
+    index: "./src/index.js",
+    worker: "./workers/worker.js",
   },
-
   output: {
     filename: "[name].js",
     sourceMapFilename: "[name].map",
     path: path.resolve(__dirname, "build"),
   },
-
-  plugins:
-    environment === "production"
-      ? [new webpack.LoaderOptionsPlugin({ minimize: false, debug: false })]
-      : [],
-
+  plugins: [
+    new webpack.DefinePlugin({
+      isDev,
+    }),
+  ],
   module: {
     rules: [
-      // Use the latest CSS with PostCSS.
+      {
+        test: /\.js$/,
+        loader: "babel-loader",
+        exclude: /(node_modules)/,
+        options: {
+          compact: false,
+        },
+      },
+
       {
         test: /\.css$/,
-        loaders: "file-loader?name=[name].[ext]!extract-loader!css-loader",
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+            },
+          },
+          "extract-loader",
+          "css-loader",
+        ],
       },
-      // Use the latest JavaScript with Babel.
-      { test: /\.js$/, exclude: /(node_modules)/, loader: "babel-loader" },
     ],
   },
 }

@@ -45,7 +45,7 @@ Use the DNS field to configure [Cloudflare DNS Records](https://api.cloudflare.c
 
 This is where the magic happens. Your app starts here.
 
-#### `src/index.css`
+#### `src/styles.css`
 
 Write your app styles here.
 
