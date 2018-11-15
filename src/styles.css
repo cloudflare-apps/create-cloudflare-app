@@ -1,29 +1,30 @@
 /* Set the app attribute to your app's dash-delimited alias. */
-cloudflare-app[app="example"] {
+cloudflare-app[app="your-app-name"] {
   display: block;
-  font-weight: bold;
   margin: 0.5em 0.2em;
   outline: 1px dotted;
   padding: 0.5em;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 /* Use native elements when you'd like to inherit some styles from the page. */
-cloudflare-app[app="example"] p {
+cloudflare-app[app="your-app-name"] p {
   text-indent: 0;
 }
 
 /* Use em units to scale elements for different inherited styles. */
-cloudflare-app[app="example"] h1 {
+cloudflare-app[app="your-app-name"] h1 {
   font-size: 1.8em;
+  font-weight: bold;
 }
 
 /* Use custom elements to avoid style inheritance. */
-cloudflare-app[app="example"] example-button {
+cloudflare-app[app="your-app-name"] example-button {
   border: 1px solid;
 }
 
 /* Prefix classes with your app's alias to avoid style collisions. */
-cloudflare-app[app="example"] .example-highlighted {
+cloudflare-app[app="your-app-name"] .example-highlighted {
   background-color: yellow;
   outline: 0.2em solid yellow;
 }

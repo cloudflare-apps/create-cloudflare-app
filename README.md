@@ -20,7 +20,7 @@ Your Cloudflare App can include a single [Cloudflare Worker](https://developers.
 
 Fork and clone the repo or download the [latest release](https://github.com/CloudflareApps/CreateCloudflareApp/releases/latest).
 
-Install the dependencies with `npm install`.
+Install the dependencies with `npm install` then build the project with `npm run build`.
 
 ## Usage
 
