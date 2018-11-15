@@ -1,3 +1,6 @@
+[build]: ./media/build.gif "Build create-cloudflare-app"
+[upload]: ./media/upload.gif "Upload create-cloudflare-app"
+
 # Create Cloudflare App
 
 ## Overview
@@ -21,6 +24,14 @@ Your Cloudflare App can include a single [Cloudflare Worker](https://developers.
 Fork and clone the repo or download the [latest release](https://github.com/CloudflareApps/CreateCloudflareApp/releases/latest).
 
 Install the dependencies with `yarn install` then build the project with `yarn build` (or `npm run build`).
+
+![alt text][build]
+
+Next, navigate to our [App Creator](https://www.cloudflare.com/apps/developer/app-creator) and upload your project directory.
+
+![alt text][upload]
+
+The App Creator will update automatically on file changes (Chrome only). Once you're done testing, press Create App to submit your app for moderation. Refer to our [Terms of Use](https://www.cloudflare.com/apps/developer/docs/resources/terms-of-use) for more information.
 
 ## Usage
 
@@ -61,7 +72,7 @@ Put your icons, tile images, and screenshots to be used in your Cloudflare Apps 
 
 #### `webpack.config.js`
 
-Simple Webpack 4 config using Babel and CSS Loader.  Please refrain from modifying the config to minify your built code.
+Simple Webpack 4 config using Babel and CSS Loader. Please refrain from modifying the config to minify your built code.
 
 ### Troubleshooting
 

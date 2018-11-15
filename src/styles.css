@@ -4,7 +4,6 @@ cloudflare-app[app="your-app-name"] {
   margin: 0.5em 0.2em;
   outline: 1px dotted;
   padding: 0.5em;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 /* Use native elements when you'd like to inherit some styles from the page. */
