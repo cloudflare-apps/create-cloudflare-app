@@ -20,16 +20,16 @@ Your Cloudflare App can include a single [Cloudflare Worker](https://developers.
 
 Fork and clone the repo or download the [latest release](https://github.com/CloudflareApps/CreateCloudflareApp/releases/latest).
 
-Install the dependencies with `npm install` then build the project with `npm run build`.
+Install the dependencies with `yarn install` then build the project with `yarn build` (or `npm run build`).
 
 ## Usage
 
-- `npm start` Sets up your dev environment and runs Webpack in watch mode.
-- `npm run build` Lints your project and compiles your JavaScript and CSS once for release.
+- `yarn start` (or `npm start`) Sets up your dev environment and runs Webpack in watch mode.
+- `yarn build` (or `npm run build`) Lints your project and compiles your JavaScript and CSS once for release.
 
 ### Other Interesting Scripts
 
-- `npm run dev:setup` Add other initialization scripts to your development pipeline here.
+- `dev:setup` Add other initialization scripts to your development pipeline here.
 
 The project uses [yarn-run-all](https://www.npmjs.com/package/yarn-run-all) which makes it easy to run tasks in series or parallel using `yarn` or `npm`.
 
@@ -58,6 +58,10 @@ Use this file to add a [Cloudflare Worker](https://developers.cloudflare.com/wor
 Put your icons, tile images, and screenshots to be used in your Cloudflare Apps page here.
 
 [Download <code class="inline">media-templates.sketch</code>](https://github.com/CloudflareApps/MediaTemplates/raw/master/media-templates.sketch)
+
+#### `webpack.config.js`
+
+Simple Webpack 4 config using Babel and CSS Loader.  Please refrain from modifying the config to minify your built code.
 
 ### Troubleshooting
 
