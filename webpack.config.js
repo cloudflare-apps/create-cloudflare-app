@@ -5,7 +5,7 @@ const isDev = process.env.NODE_ENV !== "production"
 
 module.exports = {
   mode: "development",
-  devtool: "hidden-source-map",
+  devtool: "nosources-source-map",
   entry: {
     index: "./src/index.js",
     worker: "./workers/worker.js",
