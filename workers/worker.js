@@ -1,3 +1,6 @@
+// window is not available in workers so we disable no-restricted-globals
+/* eslint-disable no-restricted-globals */
+
 async function handleRequest(request) {
   const response = await fetch(request)
   const headers = new Headers(response.headers)
@@ -14,6 +17,6 @@ async function handleRequest(request) {
   return modifiedResponse
 }
 
-window.addEventListener("fetch", event => {
+addEventListener("fetch", event => {
   event.respondWith(handleRequest(event.request))
 })
