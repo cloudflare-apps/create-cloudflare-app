@@ -1,6 +1,6 @@
 {
   "name": "@cloudflare-apps/create-cloudflare-app",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Cloudflare Apps boilerplate featuring Workers and DNS powered by Webpack and Babel",
   "scripts": {
     "start": "npm-run-all dev:setup dev:webpack",
