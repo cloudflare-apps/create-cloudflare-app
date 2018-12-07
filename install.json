@@ -20,8 +20,8 @@
   "dns": [
     {
       "type": "TXT",
-      "content": "example",
-      "name": "example",
+      "content": "Managed TXT Record",
+      "name": "Created by create-cloudflare-app",
       "ttl": 120
     }
   ],

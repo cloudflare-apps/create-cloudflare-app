@@ -5,7 +5,7 @@ const isDev = process.env.NODE_ENV !== "production"
 
 module.exports = {
   mode: "development",
-  devtool: "nosources-source-map",
+  devtool: "hidden-source-map",
   entry: {
     index: "./src/index.js",
     worker: "./workers/worker.js",
@@ -23,11 +23,40 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /src\/.*\.js$/,
         loader: "babel-loader",
         exclude: /(node_modules)/,
         options: {
           compact: false,
+          presets: [
+            [
+              "env",
+              {
+                targets: {
+                  browsers: ["last 2 versions", "ie >= 10"],
+                },
+              },
+            ],
+          ],
+        },
+      },
+
+      {
+        test: /workers\/.*\.js$/,
+        loader: "babel-loader",
+        exclude: /(node_modules)/,
+        options: {
+          compact: false,
+          presets: [
+            [
+              "env",
+              {
+                targets: {
+                  node: "current",
+                },
+              },
+            ],
+          ],
         },
       },
 
