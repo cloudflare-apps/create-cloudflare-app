@@ -15,10 +15,6 @@ Download this app and replace our code any time you want to build an Cloudflare 
 
 Your Cloudflare App can configure the [DNS Records](https://api.cloudflare.com/#dns-records-for-a-zone-properties) of any domain on Cloudflare.
 
-#### Cloudflare Workers
-
-Your Cloudflare App can include a single [Cloudflare Worker](https://developers.cloudflare.com/workers/) that runs each time your app is loaded.
-
 ## Setup
 
 Fork and clone the repo or download the [latest release](https://github.com/CloudflareApps/CreateCloudflareApp/releases/latest).
@@ -59,10 +55,6 @@ This is where the magic happens. Your app starts here.
 #### `src/styles.css`
 
 Write your app styles here.
-
-#### `workers/worker.js`
-
-Use this file to add a [Cloudflare Worker](https://developers.cloudflare.com/workers/) to your app. Each app may contain one worker. If you don't want to use workers, just delete this file along with the workers configuration in `install.json`.
 
 #### `media/**`
 

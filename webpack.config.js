@@ -8,7 +8,6 @@ module.exports = {
   devtool: "hidden-source-map",
   entry: {
     index: "./src/index.js",
-    worker: "./workers/worker.js",
   },
   output: {
     filename: "[name].js",
@@ -40,26 +39,6 @@ module.exports = {
           ],
         },
       },
-
-      {
-        test: /workers\/.*\.js$/,
-        loader: "babel-loader",
-        exclude: /(node_modules)/,
-        options: {
-          compact: false,
-          presets: [
-            [
-              "env",
-              {
-                targets: {
-                  node: "current",
-                },
-              },
-            ],
-          ],
-        },
-      },
-
       {
         test: /\.css$/,
         use: [

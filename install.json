@@ -12,11 +12,6 @@
       }
     ]
   },
-  "workers": [
-    {
-      "src": "./build/worker.js"
-    }
-  ],
   "dns": [
     {
       "type": "TXT",
@@ -52,7 +47,7 @@
         "type": "string",
         "format": "richtext",
         "order": 1,
-        "default": "<h1>Welcome to Cloudflare Apps!</h1><p>Download this app every time you want to make a new project.</p><p>This app renders a message to the user's website, installs a Cloudflare Worker that adds a 'Hello-Workers' header to each request, and sets a TXT DNS record with a value of 'Hello DNS'. The first Cloudflare Workers script in install.json will run on every request to the user's website.  Currently, one Worker is allowed per app, but you may set an unlimited number of DNS records.</p>"
+        "default": "<h1>Welcome to Cloudflare Apps!</h1><p>Download this app every time you want to make a new project.</p><p>This app renders a message to the user's website and sets a TXT DNS record with a value of 'Hello DNS'."
       }
     }
   }

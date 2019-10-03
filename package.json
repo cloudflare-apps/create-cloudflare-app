@@ -1,14 +1,14 @@
 {
   "name": "@cloudflare-apps/create-cloudflare-app",
   "version": "1.0.0",
-  "description": "Cloudflare Apps boilerplate featuring Workers and DNS powered by Webpack and Babel",
+  "description": "Cloudflare Apps boilerplate featuring DNS powered by Webpack and Babel",
   "scripts": {
     "start": "npm-run-all dev:setup dev:webpack",
     "dev:webpack": "webpack --watch --colors",
     "dev:setup": "npm-run-all lint",
     "build": "npm-run-all lint build:webpack",
     "build:webpack": "NODE_ENV=production webpack --colors",
-    "lint": "node_modules/.bin/eslint --fix --ext .js src workers"
+    "lint": "node_modules/.bin/eslint --fix --ext .js src"
   },
   "repository": {
     "type": "git",
