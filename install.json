@@ -4,11 +4,11 @@
     "body": [
       {
         "type": "style",
-        "src": "./build/styles.css"
+        "src": "./src/styles.css"
       },
       {
         "type": "script",
-        "src": "./build/index.js"
+        "src": "./src/index.js"
       }
     ]
   },
